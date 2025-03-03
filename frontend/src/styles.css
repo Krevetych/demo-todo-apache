@@ -1,0 +1,124 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+	text-align: center;
+}
+
+.container {
+	max-width: 400px;
+	margin: 50px auto;
+	padding: 20px;
+	background: white;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+input {
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+button {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	border: none;
+	border-radius: 5px;
+	background: #007bff;
+	color: white;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #0056b3;
+}
+
+.button-green {
+	background: #28a745;
+}
+
+.button-green:hover {
+	background: #218838;
+}
+
+.button-group {
+	display: flex;
+	justify-content: space-between;
+}
+
+.button-group button {
+	width: 48%;
+}
+
+.task-list {
+	list-style: none;
+	padding: 0;
+}
+
+.button-red {
+	width: 20px;
+	padding: 3px;
+	text-align: center;
+	border-radius: 5px;
+	background: #dc3545;
+	cursor: pointer;
+}
+
+.button-red:hover {
+	background: #c82333;
+}
+
+.button-edit {
+	width: 20px;
+	padding: 3px;
+	border-radius: 5px;
+	background: #ffc107;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.button-edit:hover {
+	background: #e0a800;
+}
+
+.task-item {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 20px;
+	padding: 5px;
+	align-items: center;
+}
+
+.task-item button {
+	margin-left: 5px;
+}
+
+.action-buttons {
+	display: flex;
+	gap: 20px;
+}
+
+.save-button {
+	width: 40px;
+	padding: 5px;
+	text-align: center;
+	border-radius: 5px;
+	margin-left: 5px;
+	color: white;
+	background: #28a745;
+	cursor: pointer;
+}
+
+.save-button:hover {
+	background: #218838;
+}
