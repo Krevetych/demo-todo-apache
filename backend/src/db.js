@@ -5,9 +5,8 @@ const { Client } = pg
 const client = new Client({
 	user: 'postgres',
 	password: 'postgres',
-	host: 'localhost',
+	host: '172.18.0.2',
 	database: 'todo',
-	port: 5432,
 })
 
 await client

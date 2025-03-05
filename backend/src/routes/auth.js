@@ -20,6 +20,7 @@ export const register = async (req, res, body) => {
 		)
 		jsonResponse(res, 201, { message: 'User registered successfully' })
 	} catch (error) {
+		console.log(error)
 		jsonResponse(res, 500, { error: 'User already exists or database error' })
 	}
 }
